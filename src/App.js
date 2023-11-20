@@ -5,21 +5,24 @@ import './App.css';
 // import withNotes from './learnHOC/withNotes';
 import ParentsRP from './renderProps/ParentsRP';
 import StudentRP from './renderProps/StudentRP';
+import ParentX from './coustomeHooks/ParentX';
 
 function App() {
   return (
     <div className="App" style={{ marginTop: '50px' }}>
 
-      {/* HOC exampales */}
+      {/* HOC exampales start*/}
       {/* {<ClickComponents />}
       {<HoverComponents />} */}
-      {/* <Student /> */}
-      {/* <withNotes/> */}
+      {/* HOC exampales end*/}
 
-      <ParentsRP/>
-      {/* <StudentRP/> */}
+      {/* Render Props start*/}
+      {/* <ParentsRP /> */}
+      {/* Render Props end*/}
 
-      
+
+      <ParentX />
+
 
 
     </div>
