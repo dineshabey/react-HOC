@@ -6,6 +6,7 @@ import './App.css';
 import ParentsRP from './renderProps/ParentsRP';
 import StudentRP from './renderProps/StudentRP';
 import ParentX from './coustomeHooks/ParentX';
+import OuterN from './child/OuterN';
 
 function App() {
   return (
@@ -20,9 +21,14 @@ function App() {
       {/* <ParentsRP /> */}
       {/* Render Props end*/}
 
-
+      {/* Coustome Hooks start*/}
       <ParentX />
+      {/* Coustome Hooks end*/}
 
+
+      {/* Child start*/}
+      {/* <OuterN /> */}
+      {/* Child end*/}
 
 
     </div>
